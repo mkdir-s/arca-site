@@ -1,0 +1,70 @@
+/** header **/
+@media (max-width: 1000px) {
+    .header__wrapper { 
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__logo {
+        margin-bottom: 25px;
+    }
+
+    .header__nav {
+        margin-bottom: 25px;
+    }
+
+    .header__nav-list {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__list-link--underline {
+        border: none;
+        position: relative;
+    }
+
+    .header__list-link--underline::after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        min-width: 100%;
+        background: #000;
+        top: 54%;
+        left: 0;
+    }
+
+    .header__list-link {
+        display: block;
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .header__nav::before {
+        top: 11%;
+    }
+}
+
+/** intro **/
+
+
+
+/** partners **/
+
+/** products **/
+
+
+/** customers **/
+
+/** advantage **/
+
+/** request **/
+
+/** merchants **/
+
+/** banner **/
+
+/** footer **/
